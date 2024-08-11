@@ -13,5 +13,3 @@ Upon completing this project, I have learned how to:
  - Use HTML elements to create a organized recipe page.
  - Structure content effectively to make sure it's readable and logical flow.
  - Work within the constraints of HTML.
- adsdadasd
- 
