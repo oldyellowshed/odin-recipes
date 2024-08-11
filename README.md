@@ -5,12 +5,13 @@ This project is a static recipe page I built using only HTML. Each page showcase
 
 ## Skills Demostrated
 I will demonstrate the following skills:
- - Structuring content with HTML elements such as heading, paragprahs, lists and images. 
+ - Structuring content with HTML elements such as heading, paragraphs, lists, and images. 
 
 
 ## Self-Reflection
-
 Upon completing this project, I have learned how to:
  - Use HTML elements to create a organized recipe page.
- - Structure content effectively to make sure it's readable and logical.
+ - Structure content effectively to make sure it's readable and logical flow.
  - Work within the constraints of HTML.
+ adsdadasd
+ 
