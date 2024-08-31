@@ -1,60 +1,94 @@
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #FFE7E2;
 }
 
 #front {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 50px;
     text-align: center;
-    text-shadow: 2px 2px 6px #fcd7cf;
+    background-color: pink;
     color: white;
+    text-shadow: 0px 0px 5px black;
+    border-bottom: 5px solid white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-.title {
-    font-size: 50px;
-    text-align: left;
-    text-shadow: 2px 2px 6px #fcd7cf;
-    color: white;
-    background-color: #FFDCDA;
-    box-shadow: 0px 5px 0px;
+.recipe-container {
+    text-align: center;
 }
 
-.image {
-    border: 3px solid white; 
-    border-radius: 10px;
-    box-shadow: 0px 0px 5px black;
-}
-
-p {
-    font-size: 20px;
-    text-align: left;
-    line-height: 1px;
-}
-
-.section {
-    color: white;
-    text-shadow: 0px 2px 10px black;
-    font-size: 25px;
-    text-align: left;
-    background-color: #FFDCDA;
-    box-shadow: 2px 2px 5px white;
-}
-
-.content {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 16px;
+.recipelist {
+    display: inline-block;
+    list-style: none;
+    text-underline-offset: 5px;
+    margin: 0 auto;
+    padding: 0;
+    line-height: 50px;
 }
 
 a {
     color: white;
-    font-size: 30px;
-    font-weight: 800;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 0px 0px 5px black;
+    font-family:'Courier New', Courier, monospace
 }
 
 a:hover {
-    color: black;
+    color: #692f38c7;
 }
 
+.title {
+    text-align: center;
+    color: white;
+    background-color: pink;
+    box-shadow: 0px 0px 5px black;
+    text-shadow: 0px 0px 5px black;
+    border-bottom: 5px solid white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
 
+.image {
+    display: block;
+    margin: 0 auto;
+    border: 5px solid white;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 10px;
+}
 
+.section {
+    text-align: center;
+    background-color: pink;
+    box-shadow: 0px 1px 5px black;
+    color: white;
+    text-shadow: 0px 0px 10px palevioletred;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.list-container {
+    text-align: center;
+}
+
+.unlistedlist {
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    margin: 0 200px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.unlistedlist li {
+    text-align: center;
+}
+
+.para-container {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+}
